@@ -26,6 +26,7 @@
 
     </NavigationPage.TitleView>
     
+    
     <ScrollView>
         <StackLayout x:Name="Product">
             <StackLayout BackgroundColor="#0AA2EE">
