@@ -16,6 +16,7 @@ namespace XamarinProject.Views
     [DesignTimeVisible(false)]
     public partial class ProductDetailPage : ContentPage
     {
+        
         private List<Product> productsList;
         private List<MainCategory> categories;
         Service<Models.MainCategory> service = new Service<Models.MainCategory>();

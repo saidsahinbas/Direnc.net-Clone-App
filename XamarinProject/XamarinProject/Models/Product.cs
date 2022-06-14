@@ -16,6 +16,7 @@ namespace XamarinProject.Models
         public string  Title { get; set; }
         public string Origin { get; set; }
         public string Description { get; set; }
+        
         public string Property { get; set; }
         public string StockCode { get; set; }
         public int CategoryId { get; set; }

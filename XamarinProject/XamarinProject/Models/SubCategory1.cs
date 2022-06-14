@@ -15,3 +15,4 @@ namespace XamarinProject.Models
         public IList<SubCategory2> SubCategory2List { get; set; } = new List<SubCategory2>();
     }
 }
+

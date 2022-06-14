@@ -7,6 +7,7 @@ namespace XamarinProject.Models
 {
     public class Comment
     {
+        
         public int Id { get; set; }
         public int ProductId { get; set; }
         public int Star { get; set; }
