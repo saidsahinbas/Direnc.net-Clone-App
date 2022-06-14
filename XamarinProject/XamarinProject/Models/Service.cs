@@ -81,6 +81,7 @@ namespace XamarinProject.Models
 
         public async Task<T> Get(string baseURL)
         {
+            
             try
             {
                 HttpClientHandler clientHandler = new HttpClientHandler();

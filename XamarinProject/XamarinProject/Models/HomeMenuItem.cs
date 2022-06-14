@@ -11,6 +11,7 @@ namespace XamarinProject.Models
         Giris,
         Kayit
     }
+
     public class HomeMenuItem
     {
         public MenuItemType Id { get; set; }
