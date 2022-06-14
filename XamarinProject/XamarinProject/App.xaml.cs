@@ -21,7 +21,6 @@ namespace XamarinProject
                           
             MainPage = new MainPage();
         }
-
         protected override void OnStart()
         {
         }
