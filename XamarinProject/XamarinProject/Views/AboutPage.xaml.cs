@@ -22,4 +22,5 @@ namespace XamarinProject.Views
             await RootPage.NavigateFromMenu(0);
         }
     }
+    
 }
