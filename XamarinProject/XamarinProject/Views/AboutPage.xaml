@@ -21,6 +21,7 @@
             </Image.GestureRecognizers>
         </Image>
 
+
     </NavigationPage.TitleView>
 
     <ScrollView>
