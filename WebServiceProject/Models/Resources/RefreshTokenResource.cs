@@ -11,5 +11,6 @@ namespace WebServiceProject.Models.Resources
         [DataType(DataType.EmailAddress)]
         [StringLength(255)]
         public string UserEmail { get; set; }
+        
     }
 }
