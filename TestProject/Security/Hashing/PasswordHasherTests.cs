@@ -6,6 +6,7 @@ namespace TestProject.Security.Hashing
 {
     public class PasswordHasherTests
     {
+        
         private IPasswordHasher _passwordHasher = new PasswordHasher();
 
         [Fact]

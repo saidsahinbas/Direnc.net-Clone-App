@@ -9,6 +9,7 @@ using Xunit;
 
 namespace TestProject.Security.Tokens
 {
+    
     public class TokenHandlerTests
     {
         private Mock<IOptions<TokenOptions>> _tokenOptions;

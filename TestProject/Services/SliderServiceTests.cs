@@ -12,6 +12,7 @@ namespace TestProject.Services
 {
     public class SliderServiceTests
     {
+        
         private Mock<IRepository<Slider>> _sliderRepository;
         private IService<Slider> _sliderservice;
         private List<Slider> list1;

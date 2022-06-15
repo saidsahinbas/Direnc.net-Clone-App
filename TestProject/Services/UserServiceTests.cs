@@ -11,6 +11,7 @@ namespace TestProject.Services
 {
     public class UserServiceTests
     {
+        
         private Mock<IPasswordHasher> _passwordHasher;
         private Mock<IUserRepository> _userRepository;
         private Mock<IUnitOfWork> _unitOfWork;
@@ -62,7 +63,7 @@ namespace TestProject.Services
             var response = await _userService.CreateUserAsync(user, ERole.Common);
 
             Assert.False(response.Success);
-            Assert.Equal("Email Zaten Kayýtlý.", response.Message);
+            Assert.Equal("Email Zaten Kayï¿½tlï¿½.", response.Message);
         }
 
         [Fact]

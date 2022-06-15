@@ -12,6 +12,7 @@ namespace TestProject.Services
 {
     public class CurrencyServiceTests
     {
+        
         private Mock<IRepository<Currency>> _currencyRepository;
         private IService<Currency> _currencyservice;
         private List<Currency> list1;

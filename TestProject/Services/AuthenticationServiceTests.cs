@@ -10,6 +10,7 @@ using Xunit;
 
 namespace TestProject.Services
 {
+    
     public class AuthenticationServiceTests
     {
         private bool _calledRefreshToken = false;

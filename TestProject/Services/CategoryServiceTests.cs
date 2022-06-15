@@ -12,6 +12,7 @@ namespace TestProject.Services
 {
     public class CategoryServiceTests
     {
+        
         private Mock<IRepository<MainCategory>> _categoryRepository;
         private IService<MainCategory> _categoryservice;
         private List<MainCategory> mainlist;
